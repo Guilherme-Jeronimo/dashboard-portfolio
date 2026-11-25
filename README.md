@@ -40,26 +40,49 @@ Insights: Identificação de queda de -60,20% no comparativo mensal e concentra�
 <!-- Substitua a linha abaixo quando tiver o print do dashboard --><img width="1561" height="872" alt="dashboard-telemarketing" src="https://github.com/user-attachments/assets/77c7f671-0fc0-4218-8476-9115f5df6275" />
 
 
+**Acesse o projeto:** [power-bi-atendimento](./power-bi-atendimento/)
+
+
 ---
 
 ### 🔵 SQL
 
-#### Análise de Dados com SQL
+#### Limpeza e Análise de Dados – Operação Comercial
 
-**Ferramentas:** SQL, BigQuery
+**Ferramentas:** SQL, SQLite
 
-**Descrição:** Projeto em SQL voltado à extração, tratamento e organização de dados para construção de dashboards e indicadores analíticos. As consultas foram desenvolvidas para estruturar informações relevantes, consolidar métricas e preparar bases para análises visuais e apoio à tomada de decisão
+**Descrição:** Preparação e análise de uma base sintética com 102.000 linhas e 30 colunas, contendo duplicidades, categorias inconsistentes, valores monetários em texto, datas inválidas e campos ausentes.
+
+O projeto utiliza SQL para deduplicar registros, padronizar campos, validar informações e separar dados rejeitados. Após o tratamento, constrói indicadores de conversão, ticket médio, receita por minuto e evolução mensal.
+
+**Recursos SQL:** CTEs, JOIN, CASE, funções de texto, CAST, ROW_NUMBER, RANK, LAG e funções de janela.
 
 **Preview:**
 
+**Auditoria dos Dados:**
 
 
-<!-- ![Dashboard SQL](./preview_sql.png) --><img width="1100" height="1563" alt="image" src="https://github.com/user-attachments/assets/ae3db064-8085-4a80-850c-f29110389442" />
+<img width="380" height="267" alt="image" src="https://github.com/user-attachments/assets/897e6ffd-4d72-4ee3-958a-797538203b61" />
+
+
+
+**Desempenho Comercial:**
+
+<img width="1397" height="656" alt="image" src="https://github.com/user-attachments/assets/d1c54936-f7da-433d-a01b-d543ce13c049" />
+
+
+
+**Evolução Mensal:**
+
+<img width="926" height="460" alt="image" src="https://github.com/user-attachments/assets/5a7e73c2-9f08-4157-9b83-90896495fa8c" />
+
+
+**Acesse o projeto:** [sql-tratamento-dados-comerciais](./sql-tratamento-dados-comerciais/)
 
 
 ---
 
-#### Dashboard Web de Análise de Dados
+#### Aplicativo Web de Análise de Dados/Dashboard
 
 **Ferramentas:** Python, Streamlit, Pandas, Numpy, Matplotlib, Regex
 
@@ -70,7 +93,7 @@ Insights: Identificação de queda de -60,20% no comparativo mensal e concentra�
 <!-- ![Dashboard Streamlit](./preview_streamlit.png) --><img width="1386" height="764" alt="cross_plataform" src="https://github.com/user-attachments/assets/825cb43a-876c-456f-9f7f-5246ea272b04" />
 <img width="1382" height="752" alt="instagram1" src="https://github.com/user-attachments/assets/d72af37a-9f9d-4490-b532-75d161ee3939" /><img width="1387" height="776" alt="instagram2" src="https://github.com/user-attachments/assets/3905d1c4-d8dd-4961-83bc-81c9be6e1ef8" />
 
-
+**Acesse o projeto:** [aplicativo-web-python-dashboards](./aplicativo-web-python-dashboards/)
 
 ---
 
