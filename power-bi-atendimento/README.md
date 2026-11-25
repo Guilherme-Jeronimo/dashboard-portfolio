@@ -2,6 +2,9 @@
 
 Projeto de Business Intelligence desenvolvido no **Power BI** para acompanhamento operacional de uma central de atendimento e telemarketing, com foco em **recuperação financeira**, **eficiência na resolução no primeiro contato (FCR)** e **inteligência de tempo (Time Intelligence)**.
 
+<img width="1561" height="872" alt="dashboard-telemarketing" src="https://github.com/user-attachments/assets/40c2deaa-8191-4c2b-9bd7-d3273c819f1b" />
+
+
 ---
 
 ## 🎯 Objetivo do Projeto
