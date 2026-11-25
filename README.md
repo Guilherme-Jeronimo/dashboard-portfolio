@@ -13,7 +13,7 @@
 
 ## 👤 Sobre mim
 
-Sou **Analista de Dados**, formado em Engenharia de Produção, com experiência em custos industriais, suprimentos e PCP. Transformo dados brutos em análises acionáveis utilizando Power BI, SQL, Python e Excel, unindo visão de negócio à análise quantitativa.
+Engenheiro de Produção e estudante de Análise e Desenvolvimento de Sistemas com atuação em Análise de Dados, BI, Suprimentos e Controle de Processos. Transformo bases operacionais em indicadores acionáveis utilizando Power BI, Tableau, SQL, Python, R, Sheets e Excel.
 
 📍 Bauru, SP — Brasil
 
