@@ -1,4 +1,4 @@
-# 📊 Portfolio em Dados
+📊 Portfolio em Dados
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https:/www.linkedin.com/in/guilherme-jerônimo)
 [![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)]()
@@ -37,9 +37,8 @@ Insights: Identificação de queda de -60,20% no comparativo mensal e concentra�
 
 **Preview:**
 
-<!-- Substitua a linha abaixo quando tiver o print do dashboard --><img width="1559" height="873" alt="dashboard_telemarketing" src="https://github.com/user-attachments/assets/a3e99de6-fdb7-47db-9224-b04656e70f5e" />
+<!-- Substitua a linha abaixo quando tiver o print do dashboard --><img width="1561" height="872" alt="dashboard-telemarketing" src="https://github.com/user-attachments/assets/77c7f671-0fc0-4218-8476-9115f5df6275" />
 
-<!-- ![Dashboard PCP](./preview_pcp.png) -->
 
 ---
 
