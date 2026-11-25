@@ -29,11 +29,13 @@ Engenheiro de Produção e estudante de Análise e Desenvolvimento de Sistemas c
 
 **Ferramentas:** Power BI, DAX
 
-**Descrição:** Problema: Falta de visibilidade diária sobre o valor recuperado e a taxa de resolução no primeiro contato (FCR %) entre as filas de atendimento.
+**Descrição:** Painel executivo e operacional em Power BI para monitoramento de recuperação financeira e eficiência no primeiro contato (`FCR %`) entre filas de atendimento.
 
-Solução: Modelagem de dados e criação de medidas em DAX para acompanhamento MTD/PMTD, desvio de meta e ranking por fila.
+**Problema:**  Falta de visibilidade diária sobre o valor recuperado e a taxa de resolução no primeiro contato (FCR %) entre as filas de atendimento.
 
-Insights: Identificação de queda de -60,20% no comparativo mensal e concentração de gargalo nas filas de Suporte e Retenção.
+**Solução:**  Modelagem de dados e criação de medidas em DAX para acompanhamento MTD/PMTD, desvio de meta e ranking por fila.
+
+**Insights:** Identificação de queda de -60,20% no comparativo mensal e concentração de gargalo nas filas de Suporte e Retenção.
 
 **Preview:**
 
@@ -51,9 +53,13 @@ Insights: Identificação de queda de -60,20% no comparativo mensal e concentra�
 
 **Ferramentas:** SQL, SQLite
 
-**Descrição:** Preparação e análise de uma base sintética com 102.000 linhas e 30 colunas, contendo duplicidades, categorias inconsistentes, valores monetários em texto, datas inválidas e campos ausentes.
+**Descrição:** Pipeline completo de tratamento, auditoria e análise exploratória em SQL sobre uma base comercial sintética com **102.000 registros e 30 colunas**.
 
-O projeto utiliza SQL para deduplicar registros, padronizar campos, validar informações e separar dados rejeitados. Após o tratamento, constrói indicadores de conversão, ticket médio, receita por minuto e evolução mensal.
+**Problema:** Base de dados comprometida por registros duplicados, categorias inconsistentes, valores monetários armazenados como texto, datas inválidas e campos ausentes, inviabilizando análises confiáveis.
+
+**Solução:** Construção de rotina de saneamento e auditoria em SQL para deduplicar registros, padronizar formatos, validar regras de negócio e segregar dados rejeitados antes do cálculo dos indicadores comerciais.
+
+**Insights:** Mapeamento claro entre registros válidos e rejeitados na auditoria e medição precisa da taxa de conversão, ticket médio, receita por minuto e evolução mensal de desempenho.
 
 **Recursos SQL:** CTEs, JOIN, CASE, funções de texto, CAST, ROW_NUMBER, RANK, LAG e funções de janela.
 
@@ -82,11 +88,19 @@ O projeto utiliza SQL para deduplicar registros, padronizar campos, validar info
 
 ---
 
+### 🟢 Python
+
 #### Aplicativo Web de Análise de Dados/Dashboard
 
 **Ferramentas:** Python, Streamlit, Pandas, Numpy, Matplotlib, Regex
 
-**Descrição:** Aplicação web interativa para análise e visualização de dados em redes sociais, com foco em alcance, engajamento e ações geradas pelos conteúdos. O projeto reúne visões comparativas entre plataformas e análises detalhadas por canal, permitindo identificar padrões de desempenho e apoiar decisões com base em indicadores visuais.
+**Descrição:** Aplicação web interativa em Python e Streamlit para análise comparativa multiplataforma (*Instagram, TikTok, X/Twitter, Facebook e YouTube*), acompanhada de estudo de caso executivo.
+
+**Problema:** Métricas dispersas entre cinco redes sociais com dinâmicas distintas de alcance e engajamento, dificultando uma avaliação justa de desempenho e conversão entre canais.
+
+**Solução:** Desenvolvimento de dashboard web modular com cálculo de *Total Score (0–1)* *cross-platform* e painéis individuais por rede para avaliar alcance, retenção, qualidade de engajamento e conversão.
+
+**Insights:** Liderança de volume no **Instagram** (**2,77M de views** e **969,6 mil de alcance**), alta retenção de audiência recorrente no **TikTok** e **YouTube** e eficiência superior de conversão no **Facebook** (**127,40 cliques por 1.000 alcances**).
 
 **Preview:**
 
@@ -110,7 +124,7 @@ O projeto utiliza SQL para deduplicar registros, padronizar campos, validar info
 
 ## 📬 Contato
 
-- 🔗 [LinkedIn](https:/www.linkedin.com/in/guilherme-jerônimo)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/guilherme-jerônimo)
 - 📧 guilhermej.jeronimo@gmail.com
 - 📱 (14) 99109-7985
 - 📍 Bauru, SP — Brasil
