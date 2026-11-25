@@ -1,14 +1,14 @@
-🗃️ Limpeza e Análise de Dados – Operação Comercial
+# 🗃️ Limpeza e Análise de Dados – Operação Comercial
 
-Projeto de preparação e análise de dados desenvolvido em SQL e SQLite, com foco em qualidade dos dados, desempenho comercial e evolução mensal da receita.
+Projeto de preparação e análise de dados desenvolvido em **SQL e SQLite**, com foco em qualidade dos dados, desempenho comercial e evolução mensal da receita.
 
-A partir de uma exportação sintética com 102.000 linhas e 30 colunas, o projeto realiza deduplicação, padronização de campos, validação de registros e separação de rejeitados antes de construir os indicadores de negócio.
+A partir de uma exportação sintética com **102.000 linhas** e **30 colunas**, o projeto realiza deduplicação, padronização de campos, validação de registros e separação de rejeitados antes de construir os indicadores de negócio.
 
 > Todos os dados são fictícios, gerados para fins educacionais e demonstração de portfólio. Não representam uma empresa real.
 
 ---
 
-🎯 Objetivo do Projeto
+## 🎯 Objetivo do Projeto
 
 Transformar uma exportação operacional com inconsistências em uma base adequada para análise, permitindo:
 
@@ -22,7 +22,7 @@ Transformar uma exportação operacional com inconsistências em uma base adequa
 
 ---
 
-🏗️ Estrutura e Fluxo de Preparação dos Dados
+## 🏗️ Estrutura e Fluxo de Preparação dos Dados
 
 A base `atendimentos_brutos.csv` contém atendimentos de janeiro a dezembro de 2025, distribuídos entre 20 agentes, duas equipes e três canais: Telefone, Chat e WhatsApp.
 
@@ -58,7 +58,7 @@ A carga do CSV é manual. As transformações são executadas dentro do SQLite, 
 
 ---
 
-🧹 Limpeza, Tratamento e Validação
+## 🧹 Limpeza, Tratamento e Validação
 
 A base foi criada com problemas deliberados para demonstrar decisões de preparação dos dados.
 
@@ -84,7 +84,7 @@ O tratamento monetário foi construído para os formatos presentes nesta base, s
 
 ---
 
-✅ Auditoria de Qualidade dos Dados
+## ✅ Auditoria de Qualidade dos Dados
 
 O processamento apresentou os seguintes resultados:
 
@@ -116,7 +116,7 @@ As 491 notas inválidas não provocam rejeição dos atendimentos: somente a not
 
 ---
 
-📈 Indicadores e Análises de Negócio
+## 📈 Indicadores e Análises de Negócio
 
 ### Desempenho comercial por agente e canal
 
@@ -150,7 +150,7 @@ Como exemplo de leitura, a Equipe A registrou R$ 191.499,05 em janeiro e R$ 164.
 
 ---
 
-💻 Organização das Consultas
+## 💻 Organização das Consultas
 
 | Arquivo | Finalidade |
 | :--- | :--- |
@@ -174,38 +174,16 @@ Como exemplo de leitura, a Equipe A registrou R$ 191.499,05 em janeiro e R$ 164.
 
 ---
 
-📂 Estrutura do Projeto
+## 🛠️ Ferramentas Utilizadas
 
-```text
-sql-tratamento-dados-comerciais/
-├── README.md
-├── dados/
-│   └── atendimentos_brutos.csv
-├── consultas/
-│   ├── 01_preparacao.sql
-│   ├── 02_auditoria_qualidade.sql
-│   ├── 03_desempenho_comercial.sql
-│   └── 04_evolucao_mensal.sql
-└── resultados/
-    ├── atendimentos_tratados.csv
-    ├── registros_rejeitados.csv
-    └── resultados.xlsx
-```
-
-Os arquivos da pasta `resultados` são saídas para conferência. Não precisam ser importados para executar o projeto.
+- **SQLite:** processamento, validação e análise dos dados.
+- **SQL:** criação de views, regras de qualidade e consultas analíticas.
+- **Python, Pandas e NumPy:** geração da base sintética e preparação dos arquivos de demonstração.
+- **Microsoft Excel:** formato de disponibilização dos resultados para consulta.
 
 ---
 
-🛠️ Ferramentas Utilizadas
-
-- SQLite: processamento, validação e análise dos dados.
-- SQL: criação de views, regras de qualidade e consultas analíticas.
-- Python, Pandas e NumPy: geração da base sintética e preparação dos arquivos de demonstração.
-- Microsoft Excel: formato de disponibilização dos resultados para consulta.
-
----
-
-▶️ Como Executar
+## ▶️ Como Executar
 
 1. Baixe a [base bruta](./dados/atendimentos_brutos.csv).
 2. Importe o arquivo em uma ferramenta compatível com SQLite, como o SQLite Lab.
@@ -220,7 +198,7 @@ O script de preparação pode ser reexecutado: ele recria as views sem alterar o
 
 ---
 
-🔎 Validações e Limitações
+## 🔎 Validações e Limitações
 
 As consultas foram executadas em SQLite. Foram conferidos:
 
