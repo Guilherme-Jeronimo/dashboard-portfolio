@@ -25,11 +25,15 @@ Engenheiro de Produção e estudante de Análise e Desenvolvimento de Sistemas c
 
 ### 🟡 Power BI
 
-#### Dashboard de Performance Comercial
+#### Dashboard Operacional de Atendimento e Recuperação
 
 **Ferramentas:** Power BI, DAX
 
-**Descrição:** Dashboard desenvolvido para acompanhar indicadores operacionais, com foco em valor recuperado, FCR, evolução diária de performance e ranking por fila. O painel permite monitorar desvios em relação à meta, comparar resultados no tempo e apoiar decisões operacionais com base em indicadores visuais e filtros por data e equipe.
+**Descrição:** Problema: Falta de visibilidade diária sobre o valor recuperado e a taxa de resolução no primeiro contato (FCR %) entre as filas de atendimento.
+
+Solução: Modelagem de dados e criação de medidas em DAX para acompanhamento MTD/PMTD, desvio de meta e ranking por fila.
+
+Insights: Identificação de queda de -60,20% no comparativo mensal e concentração de gargalo nas filas de Suporte e Retenção.
 
 **Preview:**
 
@@ -52,23 +56,6 @@ Engenheiro de Produção e estudante de Análise e Desenvolvimento de Sistemas c
 
 
 <!-- ![Dashboard SQL](./preview_sql.png) --><img width="1100" height="1563" alt="image" src="https://github.com/user-attachments/assets/ae3db064-8085-4a80-850c-f29110389442" />
-
-
-
----
-
-### 🐍 Python
-
-#### Automação de Formulários Web
-
-**Ferramentas:** Python, PyAutoGUI
-
-**Descrição:** Projeto de automação em Python com PyAutoGUI para preenchimento automático de formulário web, simulando etapas de abertura do navegador, acesso ao site, inserção de dados e envio do formulário. A automação foi desenvolvida para reduzir tarefas manuais repetitivas, aumentar produtividade e demonstrar aplicação prática de scripts em rotinas operacionais.
-
-**Preview:**
-
-<!-- ![Automação](./preview_automacao.png) --><img width="449" height="462" alt="Captura de tela 2026-06-15 142502" src="https://github.com/user-attachments/assets/61daf2e3-d615-41fa-a843-77f71310d127" />
-
 
 
 ---
@@ -105,8 +92,3 @@ Engenheiro de Produção e estudante de Análise e Desenvolvimento de Sistemas c
 - 📧 guilhermej.jeronimo@gmail.com
 - 📱 (14) 99109-7985
 - 📍 Bauru, SP — Brasil
-  
-
----
-
-> *Dados sem contexto são apenas números. Dados com análise são decisões.*
