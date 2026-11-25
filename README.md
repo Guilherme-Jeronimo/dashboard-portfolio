@@ -13,7 +13,7 @@
 
 ## 👤 Sobre mim
 
-Engenheiro de Produção e estudante de Análise e Desenvolvimento de Sistemas com atuação em Análise de Dados, BI, Suprimentos e Controle de Processos. Transformo bases operacionais em indicadores acionáveis utilizando Power BI, Tableau, SQL, Python, R, Sheets e Excel.
+Engenheiro de Produção e estudante de Análise e Desenvolvimento de Sistemas com atuação em Análise de Dados, BI, Planejamento e Controle de Processos. Transformo bases operacionais em indicadores acionáveis utilizando Power BI, Tableau, SQL, Python, R, Sheets e Excel.
 
 📍 Bauru, SP — Brasil
 
